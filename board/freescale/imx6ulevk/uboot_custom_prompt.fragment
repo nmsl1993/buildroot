@@ -1,0 +1,2 @@
+# Custom U-Boot prompt with company name
+# CONFIG_SYS_PROMPT="Nine Fives LLC> "
