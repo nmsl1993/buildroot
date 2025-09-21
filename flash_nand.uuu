@@ -1,0 +1,7 @@
+uuu_version 1.2.39
+
+# Flash U-Boot to NAND on i.MX6UL EVK
+SDP: boot -f output/images/u-boot.imx
+SDPU: delay 1000
+SDPU: write -f output/images/u-boot.imx -offset 0x400
+SDPU: jump
