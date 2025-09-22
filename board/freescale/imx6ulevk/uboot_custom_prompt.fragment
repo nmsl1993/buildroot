@@ -1,2 +1,4 @@
 # Custom U-Boot prompt with company name
 # CONFIG_SYS_PROMPT="Nine Fives LLC> "
+# Append serverip to existing env settings instead of replacing them
+CONFIG_EXTRA_ENV_SETTINGS+="\0serverip=172.16.1.1\0"
