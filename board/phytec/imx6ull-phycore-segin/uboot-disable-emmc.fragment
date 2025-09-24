@@ -1,0 +1,3 @@
+# CONFIG_SUPPORT_EMMC_BOOT is not set
+# CONFIG_MMC_BOOT is not set
+# CONFIG_IMX_DDRC is not set
